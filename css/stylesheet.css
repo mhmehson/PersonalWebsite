@@ -1,0 +1,12 @@
+body{
+	background-color: lightblue;
+	font-family: sans-serif;
+}
+h1{
+	margin-bottom: 0px;
+}
+#tagline{
+	margin-top: 0px;
+	font-size: small;
+}
+
