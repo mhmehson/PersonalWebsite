@@ -105,6 +105,7 @@ footer p{
 }
 .date{ 
     float: right;
+    font-weight: bold;
 }
 
 
