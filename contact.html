@@ -23,25 +23,25 @@
 
 
 <div class="main">
-	<header>
-		<h2>Contact me</h2>
+	<header id="contact_me">
+		<h2>Contact me (COMING SOON!)</h2>
 		<p>Please use the form below to send me a message.</p>
 	</header>
-	<form>
-	<p>
-		<label>Your Name (required)<br><input type="text" name="name" placeholder="Full name here" required></label>
-	</p>
-	<p>
-		<label>Your Email (required)<br><input type="email" name="email_address" placeholder="jane@xyz.com" required></label>
-	</p>
-	<p>
-		<label>Message<br><textarea name="message" placeholder="Your message here..." wrap="hard" rows="8" cols="60" required></textarea></label>
-	</p>
-	<p>
-		<input type="submit" value="Send">
-	</p>
+    
+	<form method="post">
+        
+		<label>Your Name*<br><input type="text" name="name" placeholder="Full name here" required class="name_email"></label>
+        
+		<label>Your Email*<br><input type="email" name="email_address" placeholder="jane@xyz.com" required class="name_email"></label>
+        
+		<label>Message*<br><textarea name="message" placeholder="Your message here..." wrap="hard"
+        required class="message"></textarea></label>
+        
+        <label>What is 2+2? (Anti-spam)</label>
+        <input name="human" placeholder="Type Here" class="name_email">
+		<input type="submit" value="Submit" id="submit">
+        
 	</form>
-
 </div>
 
 <aside>

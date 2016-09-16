@@ -4,6 +4,10 @@ body{
 	font-family: Arial, sans-serif;
     font-size: 100%;
 }
+header{
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
 h1{
 	margin-bottom: 0px;
 }
@@ -40,9 +44,10 @@ nav a{
 
 /*Main content*/
 .main{
+    display: block;
     overflow: auto;
-    padding-bottom: 4.0em;
-    margin-bottom: 1.8em;
+    padding-top: 2.0em;
+    padding-bottom: 5.0em;
     line-height: 140%;
     width: 80%;
     margin: 0 auto;
@@ -55,10 +60,11 @@ img{
 #bio{
     float: right;
 }
-
+.class{
+    clear: both;
+}
 /*Aside (connect)*/
 aside{
-    clear: both;
     padding-bottom: 2.0em;
     border-top: 1px solid #6699ff;
 }
@@ -87,6 +93,7 @@ aside a{
 }
 h3{
     font-weight: normal;
+    margin-left: 10px;
 }
 
 /*Footer*/
@@ -108,5 +115,45 @@ footer p{
     font-weight: bold;
 }
 
-
-
+/*Contact Form*/
+label{
+    display: block;
+    margin-top: 20px;
+}
+#contact_me{
+    margin: 0 auto;
+    width: 500px;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+}
+.name_email{
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 1em;
+    color: #3a3a3a;
+    border-radius: .5em;
+}
+.message{
+    width: 439px;
+    height: 200px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 1em;
+    color: #3a3a3a;
+    border-radius: .5em;
+}
+#submit{
+    height: 30px;
+    width: 120px;
+    border-radius: .5em;
+    border: none;
+    margin-top: 20px;
+}
