@@ -17,7 +17,7 @@
 	<li class="page"><a href="index.html">About Me</a></li>
 	<li class="page"><a href="resume.html">Resume</a></li>
 	<li class="page"><a href="portfolio.html">Portfolio</a></li>
-	<li class="page"><a href="contact.html" class="active">Contact</a></li>	
+	<li class="page"><a href="contact.html" class="active">Contact</a></li>
 </ul>
 </nav>
 
@@ -27,20 +27,17 @@
 		<h2>Contact me (COMING SOON!)</h2>
 		<p>Please use the form below to send me a message.</p>
 	</header>
-    
-	<form method="post">
-        
+
+	<form action="php/mail.php" method="post">
+
 		<label>Your Name*<br><input type="text" name="name" placeholder="Full name here" required class="name_email"></label>
-        
-		<label>Your Email*<br><input type="email" name="email_address" placeholder="jane@xyz.com" required class="name_email"></label>
-        
+
+		<label>Your Email*<br><input type="email" name="email" placeholder="jane@xyz.com" required class="name_email"></label>
+
 		<label>Message*<br><textarea name="message" placeholder="Your message here..." wrap="hard"
         required class="message"></textarea></label>
-        
-        <label>What is 2+2? (Anti-spam)</label>
-        <input name="human" placeholder="Type Here" class="name_email">
 		<input type="submit" value="Submit" id="submit">
-        
+
 	</form>
 </div>
 
